@@ -6,12 +6,12 @@ module.exports = function(grunt) {
     uglify: {
       build: {
         src: '<%= pkg.main %>',
-        dest: 'build/<%= pkg.name %>.min.js'
+        dest: '<%= pkg.name %>.min.js'
       }
     },
     jscrush: {
       build: {
-        src: 'build/<%= pkg.name %>.min.js',
+        src: '<%= pkg.name %>.min.js',
         dest: '<%= pkg.name %>.crushed.js'
       }
     }
