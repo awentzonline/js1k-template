@@ -7,8 +7,8 @@ Usage
  * Install dependencies with `npm install`
  * Create interesting javascript in js1k.js
  * Run `grunt` to make an optimized build in `js1k.crushed.js`
- * Point your browser to `index.html` to view in the contest shim
- * Submit to [js1k][http://js1k.com/]
+ * Point your browser at `index.html` or `index-crushed.html` to view in the contest shim
+ * Submit to [js1k](http://js1k.com/)
 
 License
 -------
